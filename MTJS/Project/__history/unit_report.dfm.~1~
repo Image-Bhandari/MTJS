@@ -1,0 +1,47 @@
+object Form5: TForm5
+  Left = 0
+  Top = 0
+  Caption = 'Report'
+  ClientHeight = 414
+  ClientWidth = 480
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 481
+    Height = 57
+    TabOrder = 0
+    object Button1: TButton
+      Left = 32
+      Top = 13
+      Width = 81
+      Height = 33
+      Caption = 'Send To Exel'
+      TabOrder = 0
+    end
+    object Button2: TButton
+      Left = 192
+      Top = 13
+      Width = 81
+      Height = 33
+      Caption = 'Preview'
+      TabOrder = 1
+    end
+    object Button3: TButton
+      Left = 360
+      Top = 13
+      Width = 81
+      Height = 33
+      Caption = 'Close'
+      TabOrder = 2
+    end
+  end
+end

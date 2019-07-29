@@ -1,0 +1,63 @@
+unit Unit_modified_track_form;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, ExtCtrls, dblookup, ComCtrls, Buttons, Grids, DBGrids;
+
+type
+  TForm3 = class(TForm)
+    Panel1: TPanel;
+    Button1: TButton;
+    Button2: TButton;
+    Button3: TButton;
+    PageControl1: TPageControl;
+    List: TTabSheet;
+    New: TTabSheet;
+    Label1: TLabel;
+    Label2: TLabel;
+    ComboBox1: TComboBox;
+    DB_databseprojectname: TDBLookupCombo;
+    CheckBox1: TCheckBox;
+    GroupBox1: TGroupBox;
+    Label3: TLabel;
+    Label4: TLabel;
+    SpeedButton1: TSpeedButton;
+    SpeedButton2: TSpeedButton;
+    CheckBox2: TCheckBox;
+    Button4: TButton;
+    Label5: TLabel;
+    Label6: TLabel;
+    Label7: TLabel;
+    DBGrid1: TDBGrid;
+    DBGrid2: TDBGrid;
+    DB_databsename: TDBLookupCombo;
+    Panel2: TPanel;
+    Panel3: TPanel;
+    Label8: TLabel;
+    Label9: TLabel;
+    ComboBox2: TComboBox;
+    Edit1: TEdit;
+    Label10: TLabel;
+    Label11: TLabel;
+    Edit2: TEdit;
+    Label12: TLabel;
+    DBLookupCombo1: TDBLookupCombo;
+    Label13: TLabel;
+    Label14: TLabel;
+    Label15: TLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form3: TForm3;
+
+implementation
+
+{$R *.dfm}
+
+end.

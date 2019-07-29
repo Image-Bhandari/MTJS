@@ -1,0 +1,43 @@
+unit unit_report;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, ExtCtrls, Buttons, dblookup, OleCtrls, DateEditXControl_TLB;
+
+type
+  Tform_report = class(TForm)
+    Panel1: TPanel;
+    Button1: TButton;
+    Button2: TButton;
+    Button3: TButton;
+    Panel2: TPanel;
+    Label1: TLabel;
+    RadioGroup1: TRadioGroup;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    ComboBox1: TComboBox;
+    DBLookupCombo1: TDBLookupCombo;
+    DBLookupCombo2: TDBLookupCombo;
+    SpeedButton1: TSpeedButton;
+    SpeedButton2: TSpeedButton;
+    DateEditX1: TDateEditX;
+    DateEditX2: TDateEditX;
+    cb_date: TCheckBox;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  form_report: Tform_report;
+
+implementation
+
+{$R *.dfm}
+
+end.
